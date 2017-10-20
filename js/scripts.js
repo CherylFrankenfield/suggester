@@ -1,13 +1,13 @@
 // Business logic or function goes here
 
-var add = function(_question1, _question2, _question3, question4, question5) {
-  return _question1 + _question2 + _question3 + _question4 + _question5;
+var add = function (question1, question2, question3, question4, question5) {
+  return question1 + question2 + question3 + question4 + question5;
 };
 
 // Interface or UI logic goes here
 
 $(document).ready(function() {
-  $("form#trackform").submit(function() {
+  $("form#trackform").submit(function(event) {
     event.preventDefault();
 
     var question1 = parseInt($("#best").val());
@@ -18,13 +18,14 @@ $(document).ready(function() {
 
     var codetrack = add(question1, question2, question3, question4, question5);
 
-    if (codetrack >= 5 <= 8) {
+    if (codetrack >= 5 && codetrack <= 8) {
       $("#ruby").show();
     }
-    else if (codetrack >= 9 <= 12) {
+      else if (codetrack >= 9 && codetrack <= 12) {
       $("#design").show();
     }
-    else ()
-
+      else {
+      $("#java").show();
+    }
   });
 });
