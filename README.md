@@ -6,7 +6,7 @@
 
 ## Description
 
-_Want to code at Epicodus? Try out this quiz to find what coding track is best for you. This project includes a dropdown form with questions to find out what code track would be best suited to prospective students. It includes an overview of creating forms, branching logic and matching answers to a result, and then using Javascript and jQuery to show results to the user._
+_Want to code at Epicodus? Try out this quiz to find what coding track is best for you. This project includes a dropdown form with questions to narrow down what track would be best suited to prospective students. It includes an overview of creating forms, branching logic and matching answers to a result, and then using Javascript and jQuery to show results to the quiz taker._
 
 ## Setup/Installation Requirements
 
