@@ -13,12 +13,11 @@
         <h1 class="display-3">Find a code track for you.</h1>
         <p class="lead">Please take our quiz below and answer a few simple questions.<br>More than one answer may appeal to you, but please select the most applicable. Have fun!</p>
       </div>
-
       <form id="trackform">
         <div class="form-group">
           <label for="questionOne"><strong>Question: 1</strong> Choose the statement that <strong>BEST</strong> describes you.</label>
           <select class="custom-select" id="best">
-            <option selected>Choose your answer below.</option>
+            <option value="0">Choose your answer below.</option>
             <option value="1">I am an early adopter. I often purchase new gadgets and keep up with technology trends.</option>
             <option value="2">I love design. I often can obsess over the way a website looks and if it doesn’t look good, I close the page.</option>
             <option value="3">I love function. I appreciate software or hardware that has been well-tested and just works as it should.</option>
@@ -27,7 +26,7 @@
         <div class="form-group">
           <label for="questionTwo"><strong>Question: 2</strong> Which type of company or industry would you rather work for?</label>
           <select class="custom-select" id="company">
-            <option selected>Choose your answer below.</option>
+            <option value="0">Choose your answer below.</option>
             <option value="1">Startup or smaller company. I’d like to work with a team of developers creating web applications for companies such as Salesforce,  Shopify or Basecamp.</option>
             <option value="2">Creative agency. I’d prefer to work somewhere like Wieden+Kennedy, making and maintaining web applications for multiple clients in industries like sportswear, marketing, or eCommerce.</option>
             <option value="3">Financial services, healthcare or government. I’d like to work for a bank, insurer or agency writing server side code on trading systems or databases.</option>
@@ -35,8 +34,9 @@
         </div>
         <div class="form-group">
           <label for="questionThree"><strong>Question: 3</strong> What do you value more?</label>
+          <br>
           <select class="custom-select" id="value">
-            <option selected>Choose your answer below.</option>
+            <option value="0">Choose your answer below.</option>
             <option value="1">Flexibility</option>
             <option value="2">Creativity</option>
             <option value="3">Performance</option>
@@ -45,7 +45,7 @@
         <div class="form-group">
           <label for="questionFour"><strong>Question: 4</strong> Choose from the options below on what best describes your interests.</label>
           <select class="custom-select" id="interests">
-            <option selected>Choose your answer below.</option>
+            <option value"0">Choose your answer below.</option>
             <option value="1">I like the open source model and open collaboration.</option>
             <option value="2">I like UI/UX and how customers or users interact with what I create.</option>
             <option value="3">I like big data and the growing data science field appeals to me.</option>
@@ -54,13 +54,13 @@
         <div class="form-group">
           <label for="questionFive"><strong>Question: 5</strong> Which phone do you currently own or would you most likely purchase?</label>
           <select class="custom-select" id="phone">
-            <option selected>Choose your answer below.</option>
+            <option value="0">Choose your answer below.</option>
             <option value="1">Google Pixel</option>
             <option value="2">iPhone</option>
             <option value="3">Samsung Galaxy</option>
           </select>
         </div>
-        <button type="submit" class="btn btn-dark">Submit</button>
+        <button type="submit" class="btn btn-dark btn-lg">Submit</button>
       </form>
 
       <!-- <div id="ruby">
