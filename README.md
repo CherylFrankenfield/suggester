@@ -6,7 +6,7 @@
 
 ## Description
 
-_This is a dropdown form with questions to find out what code track would be best suited to prospective students. It includes an overview of creating forms, branching logic and matching answers to a result, and then using Javascript and jQuery to show results to the user._
+_Want to code at Epicodus? Try out this quiz to find what coding track is best for you. This project includes a dropdown form with questions to find out what code track would be best suited to prospective students. It includes an overview of creating forms, branching logic and matching answers to a result, and then using Javascript and jQuery to show results to the user._
 
 ## Setup/Installation Requirements
 
@@ -17,7 +17,7 @@ _This is a dropdown form with questions to find out what code track would be bes
 
 ## Known Bugs
 
-_My form box didn't fit my text in it so lenthly text was cut off. I played around with Bootstrap form styles a bit to fix. My current workaround was just to edit down my text. Not really a bug, but next steps would include changing the order of the answers around (making it more random) as currently they follow a pattern._
+_My form box didn't fit my text in it so lengthly text was cut off. I played around with Bootstrap form styles a bit to fix. My current workaround was just to edit down my text. Not really a bug, but next steps would include changing the order of the answers around (making it more random) as currently they follow a pattern._
 
 ## Support and contact details
 
