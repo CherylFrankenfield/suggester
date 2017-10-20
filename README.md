@@ -6,18 +6,18 @@
 
 ## Description
 
-_This is a dropdown form with questions to find out what code track would best be suited to prospective students. It includes an overview of creating forms, branching logic and matching answers to a result, and then using jQuery to show results to the user._
+_This is a dropdown form with questions to find out what code track would be best suited to prospective students. It includes an overview of creating forms, branching logic and matching answers to a result, and then using Javascript and jQuery to show results to the user._
 
 ## Setup/Installation Requirements
 
 * Navigate to your terminal.
 * Perform Git clone command on the repo, [click here.] (https://github.com/CherylFrankenfield/portfolio/tree/gh-pages)
 * Perform Git atom . command to open all files in repo.
-* View index.html in browser and take the quiz! Click submit button and find out what code track is for you.
+* View index.html in browser and take the quiz! Click submit button and find out what Epicodus code track is the best for you.
 
 ## Known Bugs
 
-_Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place._
+_My form box didn't fit my text in it so lenthly text was cut off. I played around with Bootstrap form styles a bit to fix. My current workaround was just to edit down my text. Not really a bug, but next steps would include changing the order of the answers around (making it more random) as currently they follow a pattern._
 
 ## Support and contact details
 
