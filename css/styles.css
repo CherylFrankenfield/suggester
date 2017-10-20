@@ -5,3 +5,11 @@ body {
 .jumbotron {
   background-color: #9599a0;
 }
+
+#ruby, #design, #java {
+  display: none;
+}
+
+form {
+  margin-bottom: 20px;
+}
