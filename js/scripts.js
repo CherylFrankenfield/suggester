@@ -9,6 +9,7 @@ var add = function (question1, question2, question3, question4, question5) {
 $(document).ready(function() {
   $("form#trackform").submit(function(event) {
     event.preventDefault();
+    $("#ruby").removeClass();
 
     var question1 = parseInt($("#best").val());
     var question2 = parseInt($("#company").val());

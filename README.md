@@ -1,6 +1,6 @@
-# Epidocus Quiz - What track should I take?
+# Epicodus Quiz - What track should I take?
 
-#### Javascript and jQuery exercise for Epicodus, 10.20.17
+#### Javascript and jQuery exercise, 10.20.17
 
 #### By _**Cheryl Frankenfield**_
 
@@ -11,9 +11,10 @@ _Want to code at Epicodus? Try out this quiz to find what coding track is best f
 ## Setup/Installation Requirements
 
 * Navigate to your terminal.
-* Perform Git clone command on the repo, [here.](https://cherylfrankenfield.github.io/suggester/)
+* Perform Git clone command on the repo [here.](https://github.com/CherylFrankenfield/suggester.git)
 * Perform Git atom . command to open all files in repo.
 * View index.html in browser and take the quiz! Click submit button and find out what Epicodus code track is the best for you.
+* Or [click here](https://cherylfrankenfield.github.io/suggester/) to view in browser.
 
 ## Known Bugs
 
