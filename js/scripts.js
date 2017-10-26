@@ -9,7 +9,6 @@ var add = function (question1, question2, question3, question4, question5) {
 $(document).ready(function() {
   $("form#trackform").submit(function(event) {
     event.preventDefault();
-    $("#ruby").removeClass();
 
     var question1 = parseInt($("#best").val());
     var question2 = parseInt($("#company").val());
@@ -35,15 +34,17 @@ $(document).ready(function() {
 
     if (codetrack >= 5 && codetrack <= 8) {
       $("#ruby").show();
-    }
-      else if (codetrack >= 9 && codetrack <= 12) {
+      $("#java").hide();
+      $("#design").hide();
+    } else if (codetrack >= 9 && codetrack <= 12) {
       $("#design").show();
-    }
-      else if (codetrack >= 13 && codetrack <= 15) {
+      $("#ruby").hide();
+      $("#java").hide();
+    } else if (codetrack >= 13 && codetrack <= 15) {
       $("#java").show();
-    }
-      else {
-        alert("Oops! A selection was skipped. Please make all selections and hit submit.");
+      $("#ruby").hide();
+      $("#design").hide();
+    } else { alert("Oops! A selection was skipped. Please make all selections and hit submit.");
     }
   });
 });
